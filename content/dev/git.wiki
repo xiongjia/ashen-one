@@ -1,0 +1,12 @@
+%title Home
+%template home
+
+----
+
+== Tips ==
+- git 中 `HEAD~` 和 `HEAD^` 的区别　<br>
+  这个问题可以参考 <Pro Git> 中的 "Git Tools - Revision Selection" 这一章节。
+  * '~' tilde 会选择第一个 parent commit 比如 `HEAD~~` 表示第一个 parent 的第一个 parent
+  * '^' caret 会选择 parents 中的第 N 个，如 `HEAD^2` 表示分叉点第二个 parent commit
+
+

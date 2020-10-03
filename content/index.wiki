@@ -9,6 +9,7 @@
 
 = Technology =
 == DEV ==
-
+- Tools
+  * [[dev/git|git]] 
 
 
