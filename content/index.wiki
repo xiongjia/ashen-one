@@ -9,7 +9,7 @@
 
 = Technology =
 == DEV ==
-- Tools
+- Misc
   * [[dev/git|git]] 
-
+  * [[dev/util|util]] 
 

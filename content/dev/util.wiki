@@ -1,0 +1,16 @@
+%title DEV - util
+
+----
+
+== Tips ==
+- Makefile 中的任务并发 <br>
+  *  参考 `man make` 中的 `-j[jobs]` option。在启动 make 时用 `-j[jobs]` 来指定
+     并发任务的数量。比如: `make -j2` 代表同时执行 2 个任务。当遇到下面这
+     类有多个无依赖的 tasks 时 make 会并发执行 task1, task2  <br>
+     {{{ 
+     all: task1 task2
+     }}}
+  * 并发任务的另一个选择是用 shell 的 `&` 并发后台执行。配合 shell 的 
+    `wait` 语句等待。不过不如 make 可控，也不好判断并发执行的结果。
+
+
